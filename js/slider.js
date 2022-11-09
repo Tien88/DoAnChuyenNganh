@@ -12,31 +12,29 @@ const header = document.querySelector("header");
     })
 
     // Begin Slider
-    const imgPosition = document.querySelectorAll(".aspect-ratio-169 img")
-    const imgContainer = document.querySelector('.aspect-ratio-169')
+    const imgItem = document.querySelectorAll(".aspect-ratio-169 img")
+    const imgItemContainer = document.querySelector(".aspect-ratio-169")
     const dotItem = document.querySelectorAll(".dot")
-    let imgNumber = imgPosition.length;
     let index = 0;
-
-    imgPosition.forEach(function (image, index) {
+    let imgLeng = imgItem.length;
+    imgItem.forEach(function (image, index) {
         image.style.left = index * 100 + "%"
         dotItem[index].addEventListener("click", function () {
-            slider(index)
+            slideRun(index)
         })
     })
-    function imgSlide() {
+    function slide() {
         index++;
         if (index >= imgNumber) {
             index = 0;
         }
-        slider(index)
+        slideRun(index)
     }
-    setInterval(imgSlide, 5000)
-
     function slider(index) {
-        imgContainer.style.left = "-" + index * 100 + "%"
+        imgItemContainer.style.left = "-" + index * 100 + "%"
         const dotActive = document.querySelector('.active')
         dotActive.classList.remove("active")
         dotItem[index].classList.add("active")
     }
+    setInterval(slider, 5000)
     // End Slider

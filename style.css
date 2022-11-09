@@ -635,7 +635,7 @@ a {
     padding-top: 30px;
 }
 
-.product-content-right-bottom-content p {
+.product-content-right-bottom-content {
     font-family: var(--main-text-font);
     font-size: 12px;
 }

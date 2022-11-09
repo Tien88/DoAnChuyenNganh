@@ -24,7 +24,7 @@ itemsliderbar.forEach(function(menu, index){
 
 //---------------------------- Product ---------------------------//
 const bigImg = document.querySelector(".product-content-left-big-img img");
-const smallImg = document.querySelectorAll(".product-content-left-small-img");
+const smallImg = document.querySelectorAll(".product-content-left-small-img img");
 smallImg.forEach(function(imgItem, X){
     imgItem.addEventListener("click", function(){
         bigImg.src = imgItem.src;
@@ -53,6 +53,6 @@ if(chitiet) {
 const button = document.querySelector(".product-content-right-bottom-top")
 if(button) {
     button.addEventListener("click", function(){
-        document.querySelector(".product-content-right-bottom-content-big").classList.toggle("activeB ")
+        document.querySelector(".product-content-right-bottom-content-big").classList.toggle("activeB")
     })
 }
