@@ -764,10 +764,7 @@ header:hover {
 .others>li:first-child i {
     position: absolute;
     right: 10px;
-
 }
-
-
 .top-menu-items ul>li:hover .sub-items {
     display: block;
     visibility: visible;
@@ -1018,4 +1015,157 @@ header:hover {
     font-size: 12px;
     color: #333;
     font-weight: bold;
+}
+
+/*--------------------------------Delivery--------------------------------------- */
+.delivery {
+    padding: 100px 0;
+}
+.delivery-top-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.delivery-top {
+    height: 2px;
+    width: 70%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 100px;
+}
+
+.delivery-top-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.delivery-top-item i {
+    color: #ddd;
+}
+.delivery-top-address {
+    border: 1px solid #0DB7EA;
+}
+.delivery-top-address i {
+    color: 0DB7EA;
+}
+.delivery-content-left {
+    width: 60%;
+    padding-right: 12px;
+}
+.delivery-content-left p {
+    font-family: var(--main-text-font);
+    font-size: 12px;
+}
+.delivery-content-left label {
+    font-family: var(--main-text-font);
+    font-size: 12px;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.delivery-content-left > p {
+    font-weight: bold;
+}
+.delivery-content-left-dangnhap {
+    margin-top: 12px;
+}
+.delivery-content-left-dangnhap i {
+    font-size: 12px;
+    margin-right: 12px;
+}
+
+.delivery-content-left-khachle {
+    margin: 12px 0;
+}
+.delivery-content-left-khachle input {
+    margin-right: 12px;
+}
+.delivery-content-left-dangky {
+    margin-bottom: 30px;
+}
+.delivery-content-left-dangky input {
+    margin-right: 12px;
+}
+
+.delivery-content-left-iput-top-item {
+    width: calc(50% - 12px);
+}
+.delivery-content-left-iput-top-item input {
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ddd;
+    padding-left: 6px;
+}
+.delivery-content-left-input-bottom input {
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ddd;
+    padding-left: 6px;
+}
+
+.delivery-content-left-button p {
+    display: inline-block;
+    font-family: var(--main-text-font);
+    font-size: 12px;
+}
+.delivery-content-left-button span {
+    margin-right: 12px;
+}
+.delivery-content-left-button {
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.delivery-content-left-button button {
+    height: 35px;
+    border: 2px solid black;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 30px;
+}
+.delivery-content-left-button button:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.delivery-content-right {
+    width: 40%;
+    padding-left: 12px;
+    border-left: 2px solid #ddd;
+    height: auto;
+}
+.delivery-content-right table {
+    width: 100%;
+    font-family: var(--main-text-font);
+    font-size: 12px;
+    text-align: left;
+}
+.delivery-content-right table tr th:first-child {
+    text-align: left;
+}
+.delivery-content-right table tr th {
+    padding-bottom: 12px;
+    border-bottom: 2px solid #ddd;
+}
+.delivery-content-right table tr th:last-child {
+    text-align: right;
+}
+.delivery-content-right table tr td {
+    padding: 6px 0;
+}
+.delivery-content-right table tr:nth-child(4) {
+    border-top: 2px solid #ddd;
+}
+.delivery-content-right table tr td:last-child {
+    text-align: right;
+}
+.delivery-content-right table tr td:last-child {
+    text-align: right;
 }

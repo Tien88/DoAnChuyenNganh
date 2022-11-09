@@ -87,87 +87,98 @@
         </div>
     </section>
     <!-- --------------------------------Cart--------------------------------------- -->
-    <section class="cart">
+    <section class="delivery">
         <div class="container">
-            <div class="cart-top-wrap">
-                <div class="cart-top">
-                    <div class="cart-top-cart cart-top-item">
-                        <i class="fa-solid fa-cart-shopping "></i>
+            <div class="delivery-top-wrap">
+                <div class="delivery-top">
+                    <div class="delivery-top-delivery delivery-top-item">
+                        <i class="fa-solid fa-delivery-shopping "></i>
                     </div>
-                    <div class="cart-top-adress cart-top-item">
+                    <div class="delivery-top-address delivery-top-item">
                         <i class="fa-solid fa-location-dot "></i>
                     </div>
-                    <div class="cart-top-payment cart-top-item">
+                    <div class="delivery-top-payment delivery-top-item">
                         <i class="fa-solid fa-money-check-dollar "></i>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="cart-content row">
-                <div class="cart-content-left">
+            <div class="delivery-content row">
+                <div class="delivery-content-left">
+                    <p>Vui lòng chọn Địa Chỉ giao hàng</p>
+                    <div class="delivery-content-left-dangnhap row">
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                        <p>Đăng nhập/ Đăng ký tài khoản để được tích điểm và nhận thêm nhiều ưu đãi từ IVY moda.</p>
+                    </div>
+                    <div class="delivery-content-left-khachle row">
+                        <input checked name="loai khach" type="radio">
+                        <p> <b>Khách lẻ</b> (Nếu bạn không muốn lưu lại thông tin)</p>
+                    </div>
+                    <div class="delivery-content-left-dangky row">
+                        <input name="loai khach" type="radio">
+                        <p> <b>Đăng Ký</b>(Tạo mới tài khoản với thông tin bên dưới)</p>
+                    </div>
+                    <div class="delivery-content-left-input-top row">
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Họ tên <span style="color: red">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Điện thoại<span style="color: red">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Tỉnh/TP<span style="color: red">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Quận/Huyện<span style="color: red">*</span></label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="delivery-content-left-input-bottom">
+                        <label for="">Địa Chỉ<span style="color: red">*</span></label>
+                        <input type="text">
+                    </div>
+                    <div class="delivery-content-left-button row">
+                        <a href=""> <span>&#60;</span> Quay lại giỏ hàng</a>
+                        <button><p><b>THANH TOÁN VÀ GIAO HÀNG</b></p></button>
+                    </div>
+                </div>
+                <div class="delivery-content-right">
                     <table>
                         <tr>
-                            <th>Sản Phẩm</th>
-                            <th>Tên Sản Phẩm</th>
-                            <th>Màu</th>
-                            <th>Size</th>
-                            <th>SL</th>
+                            <th>Tên sản phẩm</th>
+                            <th>Giảm giá</th>
+                            <th>Số lượng</th>
                             <th>Thành Tiền</th>
-                            <th>Xóa</th>
                         </tr>
                         <tr>
-                            <td><img src="images/giohang1.jpg" alt=""></td>
-                            <td><p>Quần Sooc Bò Đen</p></td>
-                            <td><img src="images/colorblack.png" alt=""></td>
-                            <td><p>L</p></td>
-                            <td><input type="number" value="1" min="1"></td>
-                            <td><p>400.000 <sup>đ</sup></p></td>
-                            <td><span>X</span></td>
-                          
+                            <td>Áo polo kẻ ngang MS 57E2940 </td>
+                            <td>-30%</td>
+                            <td>1</td>
+                            <td><p>590.000<sup>đ</sup></p></td>
                         </tr>
                         <tr>
-                            <td><img src="images/giohang2.jpg" alt=""></td>
-                            <td><p>Áo TWEED JACKET Phối Khuy Ngọc Trai</p></td>
-                            <td><img src="images/colorblack.png" alt=""></td>
-                            <td><p>L</p></td>
-                            <td><input type="number" value="1" min="1"></td>
-                            <td><p>990.000 <sup>đ</sup></p></td>
-                            <td><span>X</span></td>
-                          
+                            <td>Áo Nam kẻ ngang MS 57E2940 </td>
+                            <td>-20%</td>
+                            <td>1</td>
+                            <td><p>490.000<sup>đ</sup></p></td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;" colspan="3">Tổng</td>
+                            <td style="font-weight: bold;"><p>690.000<sup>đ</sup></p></td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;" colspan="3">Thuế VAT</td>
+                            <td style="font-weight: bold;"><p>69.000<sup>đ</sup></p></td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;" colspan="3">Tổng tiền hàng</td>
+                            <td style="font-weight: bold;"><p>759.000<sup>đ</sup></p></td>
                         </tr>
                     </table>
-                </div>
-                <div class="cart-content-right">
-                        <table>
-                            <tr>
-                                <th colspan="2">Tổng Tiền Giỏ Hàng</th>
-                            </tr>
-                            <tr>
-                                <td>Tổng Sản Phẩm</td>
-                                <td>2</td>
-                            </tr>
-                            <tr>
-                                <td>Tổng Tiền Hàng</td>
-                                <td><p>400.000 <sup>đ</sup></p></td>
-                            </tr>
-                            <tr>
-                                <td>Tạm Tính</td>
-                                <td><p style="color: black; font-weight: bold;">400.000 <sup>đ</sup></p></td>
-                            </tr>
-                        </table>
-                        <div class="cart-content-right-text">
-                            <p>Bạn sẽ được miễn phí ship khi đơn hàng của bạn có tổng giá trị trên 2.000.000 đ</p>
-                            <p style="color:red; font-weight:bold"> Mua thêm <span style="font-size:18px;">131.000</span> để được miễn phí ship</p>
-                        </div>
-                        <div class="cart-content-right-button">
-                            <button>Tiếp Tục Mua Sắm</button>
-                            <button>Thanh Toán</button>
-                        </div>
-                        <div class="cart-content-right-dangnhap">
-                            <p>Tài Khoản IVY</p><br>
-                            <p>Hãy <a style="color:yellow;" href="">Đăng Nhập</a> tài khoản của bạn để tích điểm thành viên</p>
-                        </div>
                 </div>
             </div>
         </div>
