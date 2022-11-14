@@ -86,100 +86,85 @@
             </div>
         </div>
     </section>
-    <!-- --------------------------------Delivery--------------------------------------- -->
-    <section class="delivery">
+    <!-- --------------------------------Payment--------------------------------------- -->
+    <section class="payment">
         <div class="container">
-            <div class="delivery-top-wrap">
-                <div class="delivery-top">
-                    <div class="delivery-top-delivery delivery-top-item">
+            <div class="payment-top-wrap">
+                <div class="payment-top">
+                    <div class="payment-top-delivery payment-top-item">
                         <i class="fa-solid fa-delivery-shopping "></i>
                     </div>
-                    <div class="delivery-top-address delivery-top-item">
+                    <div class="payment-top-address payment-top-item">
                         <i class="fa-solid fa-location-dot "></i>
                     </div>
-                    <div class="delivery-top-payment delivery-top-item">
+                    <div class="payment-top-payment payment-top-item">
                         <i class="fa-solid fa-money-check-dollar "></i>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="delivery-content row">
-                <div class="delivery-content-left">
-                    <p>Vui lòng chọn Địa Chỉ giao hàng</p>
-                    <div class="delivery-content-left-dangnhap row">
-                        <i class="fa-solid fa-right-to-bracket"></i>
-                        <p>Đăng nhập/ Đăng ký tài khoản để được tích điểm và nhận thêm nhiều ưu đãi từ IVY moda.</p>
-                    </div>
-                    <div class="delivery-content-left-khachle row">
-                        <input checked name="loai khach" type="radio">
-                        <p> <b>Khách lẻ</b> (Nếu bạn không muốn lưu lại thông tin)</p>
-                    </div>
-                    <div class="delivery-content-left-dangky row">
-                        <input name="loai khach" type="radio">
-                        <p> <b>Đăng Ký</b>(Tạo mới tài khoản với thông tin bên dưới)</p>
-                    </div>
-                    <div class="delivery-content-left-input-top row">
-                        <div class="delivery-content-left-input-top-item">
-                            <label for="">Họ tên <span style="color: red">*</span></label>
-                            <input type="text">
-                        </div>
-                        <div class="delivery-content-left-input-top-item">
-                            <label for="">Điện thoại<span style="color: red">*</span></label>
-                            <input type="text">
-                        </div>
-                        <div class="delivery-content-left-input-top-item">
-                            <label for="">Tỉnh/TP<span style="color: red">*</span></label>
-                            <input type="text">
-                        </div>
-                        <div class="delivery-content-left-input-top-item">
-                            <label for="">Quận/Huyện<span style="color: red">*</span></label>
-                            <input type="text">
+            <div class="payment-content row">
+                <div class="payment-content-left">
+                    <div class="payment-content-left-method-delivery">
+                        <p><b>Phương thức giao hàng</b></p>
+                        <div class="payment-content-left-method-delivery-item">
+                            <input checked type="radio">
+                            <label for="">Giao hàng chuyển phát nhanh</label>
                         </div>
                     </div>
-                    <div class="delivery-content-left-input-bottom">
-                        <label for="">Địa Chỉ<span style="color: red">*</span></label>
-                        <input type="text">
+                    <div class="payment-content-left-method-payment">
+                        <p><b>Phương thức thanh toán</b></p>
+                        <p>Mọi giao dịch đều được bảo mật và mã hóa. Thông tin thẻ tín dụng sẽ không bao giờ được lưu lại.</p>
                     </div>
-                    <div class="delivery-content-left-button row">
-                        <a href=""> <span>&#60;</span> Quay lại giỏ hàng</a>
-                        <button><p><b>THANH TOÁN VÀ GIAO HÀNG</b></p></button>
+                    <div class="payment-content-left-method-payment-item">
+                        <input name="method-payment" type="radio">
+                        <label for="">Thanh toán bằng thẻ tín dụng(OnePay)</label>
+                    </div>
+                    <div class="payment-content-left-method-payment-item-img">
+                        <img src="image/visa.png" alt="">
+                    </div>
+                    <div class="payment-content-left-method-payment-item">
+                        <input checked name="method-payment" type="radio">
+                        <label for="">Thanh toán bằng thẻ ATM(OnePay)</label>
+                    </div>
+                    <div class="payment-content-left-method-payment-item-img">
+                        <img src="image/vcb.png" alt="">
+                    </div>
+                    <div class="payment-content-left-method-payment-item">
+                        <input name="method-payment" type="radio">
+                        <label for="">Thanh toán MoMo</label>
+                    </div>
+                    <div class="payment-content-left-method-payment-item-img">
+                        <img src="image/momo.png" alt="">
+                    </div>
+                    <div class="payment-content-left-method-payment-item">
+                        <input name="method-payment" type="radio">
+                        <label for="">Thu tiền khi giao hàng</label>
                     </div>
                 </div>
-                <div class="delivery-content-right">
-                    <table>
-                        <tr>
-                            <th>Tên sản phẩm</th>
-                            <th>Giảm giá</th>
-                            <th>Số lượng</th>
-                            <th>Thành Tiền</th>
-                        </tr>
-                        <tr>
-                            <td>Áo polo kẻ ngang MS 57E2940 </td>
-                            <td>-30%</td>
-                            <td>1</td>
-                            <td><p>590.000<sup>đ</sup></p></td>
-                        </tr>
-                        <tr>
-                            <td>Áo Nam kẻ ngang MS 57E2940 </td>
-                            <td>-20%</td>
-                            <td>1</td>
-                            <td><p>490.000<sup>đ</sup></p></td>
-                        </tr>
-                        <tr>
-                            <td style="font-weight: bold;" colspan="3">Tổng</td>
-                            <td style="font-weight: bold;"><p>690.000<sup>đ</sup></p></td>
-                        </tr>
-                        <tr>
-                            <td style="font-weight: bold;" colspan="3">Thuế VAT</td>
-                            <td style="font-weight: bold;"><p>69.000<sup>đ</sup></p></td>
-                        </tr>
-                        <tr>
-                            <td style="font-weight: bold;" colspan="3">Tổng tiền hàng</td>
-                            <td style="font-weight: bold;"><p>759.000<sup>đ</sup></p></td>
-                        </tr>
-                    </table>
+                <div class="payment-content-right">
+                    <div class="payment-content-right-button">
+                        <input type="text" placeholder="Mã giảm giá/ Quà tặng">
+                        <button><i class="fa-solid fa-check"></i></button>
+                    </div>
+                    <div class="payment-content-right-button">
+                        <input type="text" placeholder="Mã cộng tác viên">
+                        <button><i class="fa-solid fa-check"></i></button>
+                    </div>
+                    <div class="payment-content-right-mnv">
+                        <select name="" id="">
+                            <option value="">Chọn mã nhân viên thân thiết</option>
+                            <option value="">D345</option>
+                            <option value="">A345</option>
+                            <option value="">E365</option>
+                            <option value="">I345</option>
+                        </select>
+                    </div>
                 </div>
+            </div>
+            <div class="payment-content-right-payment">
+                <button>TIẾP TỤC THANH TOÁN</button>
             </div>
         </div>
     </section>
