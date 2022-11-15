@@ -1046,6 +1046,7 @@ header:hover {
     justify-content: center;
     background-color: #fff;
 }
+
 .delivery-top-item i {
     color: #ddd;
 }
@@ -1053,7 +1054,7 @@ header:hover {
     border: 1px solid #0DB7EA;
 }
 .delivery-top-address i {
-    color: 0DB7EA;
+    color: #0DB7EA;
 }
 .delivery-content-left {
     width: 60%;
@@ -1094,10 +1095,10 @@ header:hover {
     margin-right: 12px;
 }
 
-.delivery-content-left-iput-top-item {
+.delivery-content-left-input-top-item {
     width: calc(50% - 12px);
 }
-.delivery-content-left-iput-top-item input {
+.delivery-content-left-input-top-item input {
     width: 100%;
     height: 35px;
     border: 1px solid #ddd;
