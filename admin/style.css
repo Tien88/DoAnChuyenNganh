@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    height: 100px;
+    width: 100vw;
+    border-bottom: 2px solid #ddd;
+    text-align: center;
+
+}
+
+.admin-content {
+    padding-top: 50px;
+    display: flex;
+
+}
+
+.admin-content-left {
+    background-color: #ddd;
+    width: 20%;
+    height: 100vh;
+    padding: 30px 0 0 12px;
+}
+
+.admin-content-left>ul>li>a {
+    font-weight: bold;
+}
+
+.admin-content-left ul li {
+    margin: 6px 0;
+}
+
+.admin-content-left ul ul {
+    margin-left: 20px;
+}
+
+.admin-content-right{
+    width: 80%;
+    padding: 30px 0 0 12px;
+}
+
+.admin-content-right-category_add input{
+    height: 30px;
+    width: 200px;
+    padding-left: 12px;
+    margin-top: 20px;
+}
+
+.admin-content-right-category_add button{
+    display: block;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    background-color: brown;
+    border: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.admin-content-right-category_add button:hover{
+    background-color: transparent;
+    border: 1px solid brown;
+    color: brown;
+}
+
+/* -------------------------categorylist---------------------------- */
+
+.admin-content-right-category_list table{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.admin-content-right-category_list table tr th,td{
+    border: 1px solid #ddd;
+}
+table{
+    border-collapse: collapse;
+}
