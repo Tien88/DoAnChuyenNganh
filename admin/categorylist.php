@@ -26,7 +26,7 @@ $show_category = $category ->show_category();
                             <td><?php echo $i ?></td>
                             <td><?php echo $result['category_id'] ?></td>
                             <td><?php echo $result['category_name'] ?></td>
-                            <td><a href="">Sửa</a>|<a href="">Xóa</a></td>
+                            <td><a href="categoryedit.php?category_id=<?php echo $result['category_id'] ?>">Sửa</a>|<a href="categorydelete.php?category_id=<?php echo $result['category_id'] ?>">Xóa</a></td>
                         </tr>
                         <?php
                         }
